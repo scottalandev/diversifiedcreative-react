@@ -8,7 +8,7 @@ import Sounds from './SoundsComponent';
 import About from './AboutComponent';
 import Contact from './ContactComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
-// import ScrollToTop from './ScrollToTop';
+import ScrollToTop from './ScrollToTop';
 import './main.css';
 
 class Main extends Component {
@@ -17,7 +17,7 @@ class Main extends Component {
             <>
                 <Header />
                 <div className="content-container">
-                    {/* <ScrollToTop> */}
+                    <ScrollToTop>
                         <Switch>
                             <Route path='/home' component={Home} />
                             <Route path='/web' component={Web} />
@@ -27,7 +27,7 @@ class Main extends Component {
                             <Route path='/contact' component={Contact} />
                             <Redirect to='/home' />
                         </Switch>
-                    {/* </ScrollToTop> */}
+                    </ScrollToTop>
                 </div>
                 <div className="footer-container">
                     <Footer />
