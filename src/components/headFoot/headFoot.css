@@ -1,0 +1,38 @@
+/* header */
+
+.nav-link {
+    margin: 0 5px;
+}
+
+.head-cont {
+    width: 100%;
+}
+
+
+
+/* footer */
+
+.footer-content {
+    width: 100%;
+    padding-top: 15px;
+    margin: 0 auto 0 auto;
+
+}
+
+a.foot-link {
+    color: rgba(255, 255, 255, .55);
+    text-decoration: none;
+}
+
+a.foot-link.active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.grey-text {
+    color: rgba(255, 255, 255, .55)
+}
+
+hr {
+    border-top: 1px solid rgba(255, 255, 255, .55);
+}

@@ -1,40 +1,42 @@
-import React, { Component } from 'react';
-import Header from './headerFooter/HeaderComponent';
-import Footer from './headerFooter/FooterComponent';
-import Home from './HomeComponent';
-import Web from './WebComponent';
-import Words from './WordsComponent'
-import Sounds from './SoundsComponent';
-import About from './AboutComponent';
-import Contact from './ContactComponent';
-import { Switch, Route, Redirect } from 'react-router-dom';
-import ScrollToTop from './ScrollToTop';
+import React, { useLayoutEffect } from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
+import { Header, Footer } from './headFoot/HeadFootComponent';
+import Home from './pages/HomePage';
+import Web from './pages/WebPage';
+import Words from './pages/WordsPage';
+import Sounds from './pages/SoundsPage';
+import About from './pages/AboutPage';
+import Contact from './pages/ContactPage';
 import './main.css';
 
-class Main extends Component {
-    render() {
-        return(
-            <>
-                <Header />
-                <div className="content-container">
-                    <ScrollToTop>
-                        <Switch>
-                            <Route path='/home' component={Home} />
-                            <Route path='/web' component={Web} />
-                            <Route path='/words' component={Words} />
-                            <Route path='/sounds' component={Sounds} />
-                            <Route path='/about' component={About} />
-                            <Route path='/contact' component={Contact} />
-                            <Redirect to='/home' />
-                        </Switch>
-                    </ScrollToTop>
-                </div>
-                <div className="footer-container">
-                    <Footer />
-                </div>
-            </>
-        );
-    }
+function Main() {
+	//this block effects a Scroll-To-Top on navigation
+	const location = useLocation();
+	useLayoutEffect(() => {
+		window.scrollTo(0, 0);
+	}, [location]);
+
+	return (
+		<>
+			<header>
+				<Header />
+			</header>
+			<main>
+				<Routes>
+                    <Route path="/" element={<Home />} />
+					<Route path="/web" element={<Web />} />
+					<Route path="/words" element={<Words />} />
+					<Route path="/sounds" element={<Sounds />} />
+					<Route path="/about" element={<About />} />
+					<Route path="/contact" element={<Contact />} />
+					<Route path="*" element={<Home />} />
+				</Routes>
+			</main>
+			<footer>
+				<Footer />
+			</footer>
+		</>
+	);
 }
 
 export default Main;
