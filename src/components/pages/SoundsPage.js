@@ -1,11 +1,7 @@
 import React from 'react';
 
 function Sounds() {
-    return(
-        <>
-            Sounds Component
-        </>
-    )
+	return <>Sounds Component</>;
 }
 
 export default Sounds;

@@ -46,13 +46,13 @@ export function Header() {
 }
 
 export function Footer(props) {
-    let year = new Date().getFullYear();
+	let year = new Date().getFullYear();
 	return (
 		<div className="container-fluid bg-dark text-light footer-content">
 			<div className="row">
 				<div className="d-none d-sm-inline col-sm-3">
-                    <img src="img/dcr-wht-logo.png" alt="logo" />
-                </div>
+					<img src="img/dcr-wht-logo.png" alt="logo" />
+				</div>
 				<div className="col-sm-9">
 					<Nav className="d-flex flex-row justify-content-evenly">
 						<NavItem>
@@ -79,12 +79,11 @@ export function Footer(props) {
 							</NavLink>
 						</NavItem>
 						<span className="d-none d-sm-inline grey-text">|</span>
-                        <NavItem>
+						<NavItem>
 							<NavLink className="foot-link" to="/contact">
 								Contact
 							</NavLink>
 						</NavItem>
-
 					</Nav>
 					<hr />
 					<p className="grey-text"> &copy; {year} Diversified Creative</p>
