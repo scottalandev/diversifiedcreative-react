@@ -7,7 +7,7 @@ export function Header() {
 	const [isNavOpen, toggleNav] = useState(false);
 
 	return (
-		<Navbar dark className="bg-dark dark" sticky="top" expand="md">
+		<Navbar dark className="bg-dark dark" expand="md">
 			<NavbarBrand className="mr-auto col-sm-3" href="/">
 				<img src="img/dc-wht-logo.png" alt="diversified creative logo" />
 			</NavbarBrand>

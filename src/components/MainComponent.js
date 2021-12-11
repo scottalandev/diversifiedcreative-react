@@ -18,7 +18,7 @@ function Main() {
 
 	return (
 		<>
-			<header>
+			<header sticky="top">
 				<Header />
 			</header>
 			<main>
