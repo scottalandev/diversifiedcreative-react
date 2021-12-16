@@ -1,11 +1,28 @@
-/* header */
+/* SHARED */
+
+
+/* HEADER */
 
 .nav-link {
-    margin: 0 5px;
+    font-size: 1.15rem;
+}
+
+@media screen and (min-width: 900px) and  (max-width: 1199px) {
+    .nav-link {
+        margin: 0 4px;
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .nav-link {
+        margin: 0 8px;
+        font-size: 1.35rem;
+    }
 }
 
 
-/* footer */
+/* FOOTER */
 
 .footer-content {
     width: 100%;
@@ -14,7 +31,7 @@
 }
 
 a.foot-link {
-    color: rgba(255, 255, 255, .55);
+    color: #fff8;
     text-decoration: none;
 }
 
@@ -23,10 +40,11 @@ a.foot-link.active {
     text-decoration: none;
 }
 
-.grey-text {
-    color: rgba(255, 255, 255, .55)
+.cr-text {
+    font-family: 'MontserratAlt';
+    color: #fff8;
 }
 
 hr {
-    border-top: 1px solid rgba(255, 255, 255, .55);
+    border-top: 1px solid #fff8;
 }

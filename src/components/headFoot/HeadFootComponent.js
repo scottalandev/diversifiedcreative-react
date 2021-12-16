@@ -86,7 +86,7 @@ export function Footer(props) {
 						</NavItem>
 					</Nav>
 					<hr />
-					<p className="grey-text"> &copy; {year} Diversified Creative</p>
+					<p className="cr-text"> &copy; {year} Diversified Creative</p>
 				</div>
 			</div>
 		</div>

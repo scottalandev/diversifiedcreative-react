@@ -44,7 +44,7 @@ export const webInfoCards = [
 	{
 		id: 0,
 		title: 'Websites/Apps',
-		text: 'Launch a personal webpage, webfront or digital store for your business, or a custom web app in the cloud. Beautiful front-ends, reliable back-ends, and easy deployment.',
+		text: 'Launch a personal webpage, webfront for your business, or a custom web app in the cloud. Clean front-ends, reliable back-ends, and deployment tailored to your use case.',
 		path: '/web/websites',
 	},
 	{

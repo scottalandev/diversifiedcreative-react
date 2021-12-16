@@ -1,6 +1,6 @@
 :root {
     --header-height: 106px;
-    --footer-height: 112px;
+    --footer-height: 132px;
 }
 
 main {
@@ -16,4 +16,5 @@ header {
 
 footer {
     position: relative;
+    margin-top: 20px;
 }
