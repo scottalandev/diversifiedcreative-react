@@ -3,17 +3,17 @@ import './displayModules.css';
 
 export function PageHead({ image, title, text }) {
 	return (
-		<>
-			<div className="row">
+		<div className="page-head-cont">
+			<div className="row page-head-img">
 				<img src={image} alt={`{${title} banner image}`} />
 			</div>
-			<div className="row">
+			<div className="row page-head-text">
 				<div className="col">
 					<h1>{title}</h1>
 					<h2>{text}</h2>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }
 export function InfoCard({ info }) {

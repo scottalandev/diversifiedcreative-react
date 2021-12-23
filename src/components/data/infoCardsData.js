@@ -55,8 +55,8 @@ export const webInfoCards = [
 	},
 	{
 		id: 2,
-		title: 'Online Management',
-		text: 'Have a website but need someone to update and maintain it? We can help with almost anything web-related',
+		title: 'Content Management',
+		text: 'Have a website but need someone to update and maintain it? We can help with almost anything web-related, in an ongoing manner as needed for your use case.',
 		path: '/web/manage',
 	}
 ];
@@ -71,7 +71,7 @@ export const wordsInfoCards = [
 	{
 		id: 1,
 		title: 'Content Creation',
-		text: 'Expert editing and publishing of written music. Music transcription. We put notes on the page that look and sound clear and beautiful.',
+		text: 'Blog posts, listicles, reviews, articles, or really just about any written content. Whatever you need to publish, we craft to your sprecifications.',
 		path: '/words/content',
 	},
 	{
@@ -81,3 +81,13 @@ export const wordsInfoCards = [
         path: '/words/ghost',
 	}
 ];
+
+export const aboutUs = {
+    title: 'About Diversified Creative',
+    text: 'Founded by musician and web developer Scott Alan, Diversified Creative offers a wide array of creative and editorial services. After years of working full-time in music as both a creative and organizational leader, Mr. Alan\'s focus shifted toward web development and the unique set of creative services described on this site. Mr. Alan does personally provide the vast majority of services completed by Diversified Creative, though certain jobs may call for the participation of other professionals.'
+}
+
+export const contactUs = {
+    title: 'Contact Diversified Creative',
+    text: 'Please use the form below to reach us, or send us a direct email to diversifedcreative@gmail.com. We look forward to discussing how we can serve you or your project.'
+}

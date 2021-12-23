@@ -13,7 +13,7 @@ function Words() {
 			/>
 			<div className="row">
 				{wordsInfoCards.map((info) => (
-					<InfoCard info={info} />
+					<InfoCard info={info} key={info.id} />
 				))}
 			</div>
 		</div>

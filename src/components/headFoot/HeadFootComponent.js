@@ -13,7 +13,7 @@ export function Header() {
 			</NavbarBrand>
 			<NavbarToggler onClick={() => toggleNav(!isNavOpen)} />
 			<Collapse isOpen={isNavOpen} navbar>
-				<Nav navbar navbar-dark className="offset-sm-3">
+				<Nav navbar className="offset-sm-3">
 					<NavItem>
 						<NavLink className="nav-link" to="/web" onClick={() => toggleNav(false)}>
 							Web

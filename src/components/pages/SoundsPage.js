@@ -13,7 +13,7 @@ function Sounds() {
 			/>
 			<div className="row">
 				{soundsInfoCards.map((info) => (
-					<InfoCard info={info} />
+					<InfoCard info={info} key={info.id} />
 				))}
 			</div>
 		</div>
