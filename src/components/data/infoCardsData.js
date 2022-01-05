@@ -84,10 +84,14 @@ export const wordsInfoCards = [
 
 export const aboutUs = {
     title: 'About Diversified Creative',
-    text: 'Founded by musician and web developer Scott Alan, Diversified Creative offers a wide array of creative and editorial services. After years of working full-time in music as both a creative and organizational leader, Mr. Alan\'s focus shifted toward web development and the unique set of creative services described on this site. Mr. Alan does personally provide the vast majority of services completed by Diversified Creative, though certain jobs may call for the participation of other professionals.'
+    text: 'Founded by musician and web developer Scott Alan, Diversified Creative offers a wide array of creative and editorial services. After years of working full-time in music as both a creative and organizational leader, Mr. Alan\'s focus shifted toward web development and the unique set of creative services described on this site. Mr. Alan does personally provide the vast majority of services completed by Diversified Creative, though certain jobs call for the participation of other professionals.'
 }
 
 export const contactUs = {
     title: 'Contact Diversified Creative',
     text: 'Please use the form below to reach us, or send us a direct email to diversifedcreative@gmail.com. We look forward to discussing how we can serve you or your project.'
 }
+
+export const serviceDetails = [
+    {}
+]

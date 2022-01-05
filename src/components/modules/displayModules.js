@@ -16,6 +16,7 @@ export function PageHead({ image, title, text }) {
 		</div>
 	);
 }
+
 export function InfoCard({ info }) {
 	if (info) {
 		return (
@@ -23,7 +24,7 @@ export function InfoCard({ info }) {
 				<div className="info-card">
 					<h3>{info.title}</h3>
 					<p>{info.text}</p>
-					<NavLink to={info.path}>
+					<NavLink to='/contact'>
 						<button className="btn btn-secondary">{info.title}</button>
 					</NavLink>
 				</div>

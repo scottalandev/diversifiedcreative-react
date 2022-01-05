@@ -23,7 +23,7 @@ function Main() {
 			</header>
 			<main>
 				<Routes>
-                    <Route path="/" element={<Home />} />
+					<Route path="/" element={<Home />} />
 					<Route path="/web" element={<Web />} />
 					<Route path="/words" element={<Words />} />
 					<Route path="/sounds" element={<Sounds />} />
